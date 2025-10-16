@@ -1,0 +1,20 @@
+body { font-family: Figtree, sans-serif; margin: 0; color: #555; }
+a { color:#7fc095; }
+
+header { font-size: 18px; padding: 24px 32px; background: #7fc095; color: #fff; }
+header .descr { font-size: 16px; margin-top: -16px; font-style: italic; }
+
+.page { margin: 16px; width: auto; height: auto; }
+
+main { margin: 48px auto; width: 740px; height: 740px; }
+main #left { width: 270px; float: left; }
+main #right { width: 400px; float: right; }
+main .divider { margin: 0; height: 1px; width: 270px; background: linear-gradient(to right, #ccc, #fff); }
+main #left .card { text-align: center; padding: 32px; }
+main #right .card { padding: 16px 8px; }
+main .card { line-height: 18px; }
+
+footer { border-top: 1px solid #ccc; padding: 16px; }
+footer p { text-align: center; font-size: 14px; }
+/* Images */
+.avatar { border-radius: 666px; width: 180px; height: auto; background: #7fc095; padding: 8px; }
